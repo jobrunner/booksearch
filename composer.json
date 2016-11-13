@@ -1,0 +1,23 @@
+{
+    "name": "Booksearch",
+    "description": "Lookup book titles experiment",
+    "homepage": "https://github.com/jobrunner/booksearch/",
+    "type": "project",
+    "license": "MIT",
+    "support": {
+        "source": "https://github.com/jobrunner/booksearch"
+    },
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.4.0",
+        "jobrunner/command": "*",
+        "fale/isbn":"3.0.0",
+        "exeu/amazon-ecs-php":"1.3.3"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "3.7.*"
+    },
+    "autoload": {
+            "psr-0": {"": ["lib/"]}
+    }
+}
